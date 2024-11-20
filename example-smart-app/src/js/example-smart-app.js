@@ -122,6 +122,7 @@
   }
 
   window.drawVisualization = function(p) {
+    console.log("drawVisualization", p);
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
