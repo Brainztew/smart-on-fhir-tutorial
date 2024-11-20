@@ -1,18 +1,16 @@
 th, td {
   padding: 5px;
   text-align: left;
+  color: gold;
 }
 
 body {
   margin: 10rem;
   padding: 10rem;
   background-color: #000;
+  color: gold;
 }
 
-p {
-  color: gold;
-  padding: 5px;
-}
 
 #holder {
   display: none;
@@ -22,6 +20,7 @@ p {
   margin: 100px auto 0;
   width: 70px;
   text-align: center;
+  color: gold;
 }
 
 .spinner > div {
