@@ -53,6 +53,7 @@
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
           p.weight = getQuantityValueAndUnit(weight[0]);
+          console.log('Weight value:', p.weight);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
